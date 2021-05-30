@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/centerNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:drawableLeft="@drawable/ic_hospital"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/center_name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/centerLocationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/centerNameTextView"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/center_location"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/centerTimingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/centerLocationTextView"
+            android:layout_margin="3dp"
+            android:drawableLeft="@drawable/ic_time"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/center_timings"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/vaccineLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/centerTimingTextView"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/vaccineNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_vaccine"
+                android:drawablePadding="3dp"
+                android:padding="3dp"
+                android:text="@string/vaccine_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/feesTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/fees"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vaccineLinearLayout"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/ageLimitTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/age_limit"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/availabilityTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/availability"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

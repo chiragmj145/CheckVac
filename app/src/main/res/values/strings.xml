@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CheckVac</string>
+    <string name="welcome_to_checkvac">Welcome to CheckVac</string>
+    <string name="note">Please adopt these three main habbits for the safety of yourself and your family.</string>
+    <string name="okay">Okay</string>
+    <string name="pinText">Enter your PIN code</string>
+    <string name="search">search</string>
+    <string name="center_name">Center Name</string>
+    <string name="center_location">Center Location</string>
+    <string name="center_timings">Center Timings</string>
+    <string name="vaccine_name">Vaccine Name</string>
+    <string name="fees">Fees</string>
+    <string name="age_limit">Age Limit</string>
+    <string name="availability">Availability</string>
+    <string name="please_enter_your_pin_code_to_check_vaccine_availability_to_your_area">Please enter your PIN code to check Vaccine availability in your Area.</string>
+    <string name="oooops_n_there_is_no_vaccines_available_in_your_area">Oops...! Looks like it\'s in the way, You should check somewhere else near you.</string>
+</resources>
